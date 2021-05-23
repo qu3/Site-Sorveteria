@@ -1,0 +1,142 @@
+body{
+	background-image: url("../img/bg.png");
+}
+
+.princ{
+	background-color: white;
+}
+
+/* NAVBAR */
+#logo{
+	width: 200px;
+	height: 200px;
+}
+
+nav ul li {
+	display:inline; 
+	padding:15px; 
+	font-size:16px; 
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+}
+
+nav ul li #item{
+	color: #cecece;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+nav ul li #item:hover {
+	background-color: #cecece; 
+	font-size:14px; 
+	transition: all 0.3s;
+	border: 2px solid; 
+	border-radius: 10px; 
+	border-color: #dd2a8a;
+	color: #FFF;
+
+}
+
+/* BANNER */
+.banner{
+	width: 100%;
+	height: 150px;
+	background-color: #363636;
+	border-radius: 25px;
+}
+
+.banner2{
+	width: 100%;
+	height: 390px;
+	background-color: #363636;
+	border-radius: 25px;
+}
+
+#recepcao {
+	text-align: center; 
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman'; 
+	color: #f5f6fa; 
+	padding:2.5%;
+}
+
+.alerta{
+	background-color: #0b94d2;
+	color: #FFF;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	border-color: #0b94d2; 
+}
+
+/* CARROSSEL */
+.meio{
+  overflow: hidden;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* PRODUTOS */
+.flip{
+	  margin-top: 25px;
+}
+
+.andar{
+	margin-left: 20px;
+	text-align: center;
+}
+
+.btn-ver{
+	background-color: #dd2a8a;
+	border-color: #dd2a8a;
+}
+
+/* PAGINAÇÃO */
+
+#num1{
+	position: relative;
+	left: 20px;
+
+}
+
+#num3{
+	position: relative;
+	right: 20px;
+
+}
+
+#num-ant{
+	position: relative;
+	left: 40px;
+
+}
+
+#num-pro{
+	position: relative;
+	right: 40px;
+
+}
+
+.pag{
+	margin-right: 80px;
+	color: #0b94d2;
+}
+
+.pag ul li a{
+	color: #0b94d2;
+}
+
+/* CHOCOLATE */
+
+#btn-pre{
+	position: relative;
+	left: 135px;
+	margin-top: 2px;
+}
+
+
+
+
+
+
+
