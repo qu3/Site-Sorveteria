@@ -12,9 +12,36 @@ body{
 	height: 200px;
 }
 
+.bg-light{
+	background-color: white !important;
+}
+
+.buttom-navbar {
+	border: none;
+	background: #ffffff;
+	color: black !important;
+	font-weight: 100;
+	padding: 20px;
+	text-transform: uppercase;
+	border-radius: 6px;
+	display: inline-block;
+	transition: all 0.3s ease 0s;
+}
+
+.buttom-navbar:hover {
+	color: #404040 !important;
+	font-weight: 700 !important;
+	letter-spacing: 3px;
+	background: rgba(251,211,211,255);
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(251,211,211,255);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(251,211,211,255);
+	transition: all 0.3s ease 0s;
+	text-decoration:none;
+}
+
 nav ul li {
 	display:inline; 
-	padding:15px; 
+	padding:14px; 
 	font-size:16px; 
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
 }
@@ -26,28 +53,35 @@ nav ul li #item{
 }
 
 nav ul li #item:hover {
-	background-color: #cecece; 
-	font-size:14px; 
-	transition: all 0.3s;
-	border: 2px solid; 
-	border-radius: 10px; 
-	border-color: #dd2a8a;
-	color: #FFF;
+	font-size:17px; 
+	transition: all 0.10s;
+	color: rgba(251,211,211,255)F;
 
 }
 
 /* BANNER */
 .banner{
 	width: 100%;
-	height: 150px;
-	background-color: #363636;
 	border-radius: 25px;
 }
+
+.title-recepcao{
+	font-size: 6em;
+	text-shadow:#686868 2px 2px 2px;
+}
+
+.title-recepcao a1 {
+	color: #9ab0d7;
+}
+
+.title-recepcao a2 {
+	color: rgba(251,211,211,255);
+}
+
 
 .banner2{
 	width: 100%;
 	height: 390px;
-	background-color: #363636;
 	border-radius: 25px;
 }
 
@@ -126,7 +160,22 @@ nav ul li #item:hover {
 	color: #0b94d2;
 }
 
-/* CHOCOLATE */
+.title-slido {
+	font-size: 2em;
+	text-shadow:#646464 2px 2px 2px;
+}
+
+
+.title-slido a1 {
+	color: #9ab0d7;
+}
+
+.title-slido a2 {
+	color: rgba(251,211,211,255);
+}
+
+
+/* LEITINHO TRUFADO */
 
 #btn-pre{
 	position: relative;
@@ -134,9 +183,9 @@ nav ul li #item:hover {
 	margin-top: 2px;
 }
 
+/* FOOTER */
 
-
-
-
-
-
+.bg-danger {
+	border-radius: 20px 20px 0px 0px; 
+	background-color: #0b94d2 !important;
+}
